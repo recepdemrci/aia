@@ -1,0 +1,12 @@
+include README.md
+include LICENSE
+include requirements.txt
+include pyproject.toml
+recursive-include src *.py
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude venv *
+recursive-exclude .git *
+recursive-exclude *.egg-info *
+recursive-exclude build *
+recursive-exclude dist *

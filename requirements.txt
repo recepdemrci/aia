@@ -1,0 +1,4 @@
+# Core dependencies for AIA Framework
+# These are the minimal dependencies required for the framework to work
+
+litellm>=1.0.0
