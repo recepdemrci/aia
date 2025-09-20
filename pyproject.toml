@@ -62,13 +62,11 @@ Documentation = "https://github.com/recepdemrci/aia#readme"
 "Bug Tracker" = "https://github.com/recepdemrci/aia/issues"
 
 [tool.setuptools.packages.find]
-where = ["."]
-include = ["src*"]
-exclude = ["tests*", "venv*", "*.egg-info*"]
+where = ["src"]
+include = ["*"]
 
 [tool.setuptools.package-dir]
-"" = "."
-"aia" = "src"
+"" = "src"
 
 [tool.black]
 line-length = 88
