@@ -61,12 +61,11 @@ Repository = "https://github.com/recepdemrci/aia.git"
 Documentation = "https://github.com/recepdemrci/aia#readme"
 "Bug Tracker" = "https://github.com/recepdemrci/aia/issues"
 
-[tool.setuptools.packages.find]
-where = ["src"]
-include = ["*"]
+[tool.setuptools]
+packages = ["aia", "aia.core", "aia.language", "aia.llm", "aia.registry"]
 
 [tool.setuptools.package-dir]
-"" = "src"
+"aia" = "src"
 
 [tool.black]
 line-length = 88

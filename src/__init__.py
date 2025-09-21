@@ -11,9 +11,9 @@ This framework provides a comprehensive set of tools for building AI agents with
 
 from .agent import Agent
 from .core import Goal, Action, Memory, Environment
-from .registery import ActionRegistry, register_tool
+from .registry import ActionRegistry, register_tool
 from .language import AgentFunctionLanguage
-from .llm import Client
+from .llm import Prompt, Client
 
 __version__ = "0.1.0"
 __author__ = "AIA Framework Contributors"
@@ -27,6 +27,7 @@ __all__ = [
     "Action",
     "Memory",
     "Environment",
+    "Prompt",
     "Client",
     "AgentFunctionLanguage",
     "ActionRegistry",
@@ -34,4 +35,5 @@ __all__ = [
     "__version__",
     "__author__",
     "__description__",
+    "__url__",
 ]

@@ -1,7 +1,7 @@
 import json
 from typing import List
 from .core import Goal, Memory, Environment
-from .registery import ActionRegistry
+from .registry import ActionRegistry
 from .language import AgentLanguage
 from .llm import Prompt, Client
 

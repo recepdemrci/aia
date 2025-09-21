@@ -82,7 +82,7 @@ The framework is organized into the following packages:
 -   **Memory** (`src/core/memory.py`): Manages conversation history and context
 -   **Environment** (`src/core/environment.py`): Handles action execution and result formatting
 
-### Actions (`src/registery/`)
+### Actions (`src/registry/`)
 
 -   **ActionRegistry**: Manages and filters available actions
 -   **decorators**: Tool registration decorators and utilities

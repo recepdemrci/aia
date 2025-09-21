@@ -1,4 +1,4 @@
-"""Core components of the SCAN framework"""
+"""Core components of the AIA framework"""
 
 from .goal import Goal
 from .action import Action
